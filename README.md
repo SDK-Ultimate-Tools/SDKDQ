@@ -1,5 +1,5 @@
-# KSDQ-DB
-Kai's Structuring Data Query.
+# sdkDB
+SDK's Branch Of KSDQ.
 KSDQ Is an open sourced database algorithm written in javascript.
 ## Tests & Samples
 You can find examples in samples/.
@@ -16,9 +16,9 @@ A Promise is an event that fires when one function has finished execution.
 You can see this if you use the `ResolveItemByString` function. You can use .then() to run another event after.
 
 ```js
-const ksdq = require('ksdq')
+const sdksdq = require('sdksdq')
 
-const newclient = new ksdq({
+const newclient = new sdksdq({
     folder: "myQuery"
 })
 
